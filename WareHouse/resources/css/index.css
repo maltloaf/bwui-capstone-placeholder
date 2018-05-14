@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'AkzidenzGrotConBQ-Regular' ;
+  src: url('../fonts/AkzidenzGrotConBQ-Regular.otf') format('truetype');
+}
+
+.hero {
+  width: 1220px;
+  height: 21.75rem;
+  margin-top: 1.6rem;
+  background-image: url('../img/home/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+}
+
+@media only screen and (max-width: 800px) {
+
+.hero {
+  display: none;
+}
+}
+
+.hero h1 {
+  padding-top: 17rem;
+  padding-left: 1.8rem;
+  color: hsla(0, 100%, 100%, 1);
+  font-family: "AkzidenzGrotConBQ-Regular";
+  font-size: 3.75rem;
+  text-align: left;
+}
+
+.products {
+  font-size: 1.9rem;
+  margin-top: 1.25rem;
+}
+
+.image-container img {
+  display: block;
+  object-fit: cover;
+}
+
+.products h2 {
+  font-family: "AkzidenzGrotConBQ-Regular";
+  margin-top: 2.5rem;
+  color: #0692C1;
+}
+
+@media only screen and (max-width: 800px) {
+
+.products h2 {
+  font-family: "AkzidenzGrotConBQ-Regular";
+  margin-top: 0.7rem;
+  color: #0692C1;
+}
+}
+
+.landing .product-list {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media only screen and (max-width: 800px) {
+  .landing .product-list {
+    grid-template-columns: 1fr;
+}
+}
+
+.page-divider {
+  border-top: solid 1px hsla(0, 0%, 85%, 1);
+}
+
+@media only screen and (max-width: 800px) {
+
+.page-divider {
+  border-top: solid 1px hsla(0, 0%, 85%, 1);
+  margin-bottom: 3rem;
+}
+}

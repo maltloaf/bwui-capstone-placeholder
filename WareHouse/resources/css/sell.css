@@ -1,0 +1,122 @@
+#main {
+  text-align: left;
+  justify-items: auto;
+}
+
+@media only screen and (max-width: 800px) {
+
+#main {
+  justify-items: center;
+  margin-bottom: -12.5rem;
+}
+}
+
+.sell {
+  padding: 2rem 11.75rem 8rem 11.75rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+.sell {
+  padding: 2rem 11.75rem 18.75rem 11.75rem;
+}
+}
+
+.sell h3 {
+  font-family: "AkzidenzGrotConBQ-Regular";
+  color: #0692C1;
+  margin-bottom: 4rem;
+  font-size: 1.9rem;
+  justify-self: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+.sell h3 {
+  margin-bottom: 2rem;
+}
+}
+
+form {
+  display: grid;
+  grid-template-areas: 'name name price quantity'
+                       'description description description description'
+                       '. . . submit';
+  font-size: inherit;
+}
+
+@media only screen and (max-width: 800px) {
+
+form {
+  grid-template-areas: 'name'
+                       'price'
+                       'quantity'
+                       'description'
+                       'submit';
+}
+}
+
+input {
+  min-width: 90%;
+  box-sizing: border-box;
+}
+
+select {
+  font-size: inherit;
+  height: 53.5px;
+}
+
+textarea {
+  min-height: 12rem;
+  font-size: inherit;
+}
+
+#name {
+  grid-area: name;
+  margin-right: 1.25rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+#name {
+    grid-area: name;
+    margin-right: 0;
+}
+}
+
+#price {
+  grid-area: price;
+  margin-right: 1.25rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+#price {
+  width: 400px;
+  grid-area: price;
+  margin-right: 0;
+}
+}
+
+#quantity {
+  grid-area: quantity;
+}
+
+#description {
+  grid-area: description;
+  margin-top: 3.1rem;
+}
+
+#submit {
+  grid-area: submit;
+  justify-self: end;
+  margin-top: 3.1rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+#submit {
+  justify-self: center;
+  margin-bottom: -2.5rem;
+}
+}

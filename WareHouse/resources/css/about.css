@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'AkzidenzGrotConBQ-Regular' ;
+  src: url('../fonts/AkzidenzGrotConBQ-Regular.otf') format('truetype');
+}
+
+.about h1 {
+  width: 1220px;
+  margin-top: 1.6rem;
+  padding: 7.5rem 0 6.5rem 0;
+  background-image: url('../img/hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-size: 8.1rem;
+  font-family: "AkzidenzGrotConBQ-Regular";
+  letter-spacing: 0.5rem;
+  color: hsla(0, 100%, 100%, 1);
+}
+
+@media only screen and (max-width: 800px) {
+
+.about h1 {
+  display: none;
+}
+}
+
+.about .information {
+  padding: 3.75rem 18rem 6.75rem 18rem;
+  color: hsla(0, 0%, 29%, 1);
+}
+
+@media only screen and (max-width: 800px) {
+
+.about .information {
+  padding: 3rem;
+}
+}
+
+.about h3 {
+  font-family: "AkzidenzGrotConBQ-Regular";
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+  color: #0692C1;
+}
+
+@media only screen and (max-width: 800px) {
+.about h3 {
+  margin-top: -0.9rem;
+}
+}
+
+.about p {
+  padding-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 2;
+  margin: 0 3.8rem 2rem 3.8rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+.about p {
+  margin: 0 15rem;
+}
+}
+
+.about .join {
+  display: grid;
+  justify-items: center;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem ;
+  border: solid 1px #e7e7e7;
+  background-color: hsla(0, 0%, 100%, 1);
+  margin-left: 15.6rem;
+  margin-right: 15.6rem;
+}
+
+@media only screen and (max-width: 800px) {
+
+.about .join {
+  padding: 2.5rem 1.5rem 1.5rem 1.5rem ;
+}
+}
